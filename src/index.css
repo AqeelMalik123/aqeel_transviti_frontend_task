@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url("assets/fonts/NeueHaasDisplayMediu.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: "NeueHaasGrotesk", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-size: 14px;
+}
+/* for large screens */
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 16px;
+  }
+}
