@@ -1,4 +1,4 @@
-import React from "react";
+
 import JobListings from "./components/JobListings.tsx";
 import JobCategories from "./components/JobCategories.tsx";
 import Header from "./components/Header.tsx";

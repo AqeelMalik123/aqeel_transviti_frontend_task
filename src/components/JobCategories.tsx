@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const JobCategories = () => {
   const categories = ["Frontend", "Backend", "Graphic Designer"];

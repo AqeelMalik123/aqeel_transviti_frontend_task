@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaBookmark, FaClock, FaMapPin } from "react-icons/fa";
 
 interface JobCardProps {
